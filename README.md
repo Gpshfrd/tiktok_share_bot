@@ -6,7 +6,7 @@ The bot supports both **direct chat usage** and **inline mode**, making it easy 
 ## Features
 
 * Download TikTok videos by sending a link to the bot
-* Inline mode: use the bot directly in any chat with `@tiktokvideosharebot <tiktok_url>`
+* Inline mode: use the bot directly in any chat with `@tiktokvideosendbot <tiktok_url>`
 * Automatic support for TikTok short links (`vt.tiktok.com`, `vm.tiktok.com`)
 * Video caching using Telegram `file_id` for faster repeated downloads
 * Simple deployment using Docker
@@ -39,7 +39,7 @@ The bot will respond with the downloadable video.
 Use the bot directly in any chat:
 
 ```
-@tiktokvideosharebot https://www.tiktok.com/...
+@tiktokvideosendbot https://www.tiktok.com/...
 ```
 
 Telegram will display a preview that can be sent to the chat.
